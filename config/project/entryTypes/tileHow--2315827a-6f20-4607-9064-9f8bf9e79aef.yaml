@@ -1,0 +1,86 @@
+color: null
+fieldLayouts:
+  13f12c36-dac3-4b72-a10f-0e4a3fce829b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 8f8119fb-4dd3-4042-be6f-3028da820d01
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6c05ceaf-146d-4c06-8ed9-678874010683 # Obrázek
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 916a3647-4814-470f-ab51-f5c86b57968f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Obsah
+        uid: d8c9f1ab-32a6-46d8-af73-63a16502e892
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 10a47349-5326-45b4-a1d5-40d006c3af3b # Text odkazu
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 659aaf47-24ac-446c-89c1-8cef56c19f9c
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Obsah po najetí myši'
+        uid: 49ec80de-ac46-41ea-a8ed-781d6f46da2e
+        userCondition: null
+handle: tileHow
+hasTitleField: true
+icon: ''
+name: 'Dlaždice Jak?'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

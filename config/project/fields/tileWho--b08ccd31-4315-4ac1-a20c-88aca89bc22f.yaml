@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: tileWho
+instructions: null
+name: 'Dlaždice S Kým?'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 76127beb-52d6-4453-910c-f3dad6d6bd96 # Dlaždice S Kým?
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

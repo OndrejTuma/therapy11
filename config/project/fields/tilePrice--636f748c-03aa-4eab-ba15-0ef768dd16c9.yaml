@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: tilePrice
+instructions: null
+name: 'Dlaždice Za kolik?'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - c6cb9019-eab6-45ec-b794-ed112f9baab1 # Dlaždice Za kolik?
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

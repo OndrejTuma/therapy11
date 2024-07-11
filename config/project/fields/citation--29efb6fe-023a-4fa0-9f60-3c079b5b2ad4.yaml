@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: citation
+instructions: null
+name: Citát
+searchable: false
+settings:
+  createButtonLabel: 'Vložit citát'
+  entryTypes:
+    - 166fbe0f-b2e0-4feb-8839-d20b74e92a40 # Citát
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

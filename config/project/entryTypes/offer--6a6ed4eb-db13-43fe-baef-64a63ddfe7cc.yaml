@@ -1,0 +1,80 @@
+color: yellow
+fieldLayouts:
+  3728c0e9-dffd-42e3-b18d-2458f504d9a4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 88fb29d6-8adb-44f2-a834-1eaed7531ada
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4008b991-c333-4dad-a38e-519a7e854209 # Cena
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8560f035-3d47-4914-a86e-3c38506d5a11
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 8e38523c-8645-47e2-a452-7ae0566cb2fe # Délka
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8792986e-f96d-4d2c-bdbf-5c8a884b2417
+            userCondition: null
+            warning: null
+            width: 50
+        name: Obsah
+        uid: 912d104a-5b97-4aee-b378-ff29cfb52eb8
+        userCondition: null
+handle: offer
+hasTitleField: true
+icon: dollar-sign
+name: Nabídka
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

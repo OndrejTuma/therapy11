@@ -1,0 +1,37 @@
+columnSuffix: null
+handle: icon
+instructions: null
+name: Ikona
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: true
+  allowUploads: true
+  allowedKinds:
+    - image
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:91c8e751-385d-46ee-9a3b-3bc063894418' # Ikony
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: true
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:91c8e751-385d-46ee-9a3b-3bc063894418' # Ikony
+  restrictedLocationSubpath: null
+  selectionLabel: 'Přidat ikonu'
+  showCardsInGrid: false
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:91c8e751-385d-46ee-9a3b-3bc063894418' # Ikony
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: tileHow
+instructions: null
+name: 'Dlaždice Jak?'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 2315827a-6f20-4607-9064-9f8bf9e79aef # Dlaždice Jak?
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

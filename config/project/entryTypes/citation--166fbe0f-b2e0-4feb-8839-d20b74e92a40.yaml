@@ -1,0 +1,95 @@
+color: lime
+fieldLayouts:
+  b4295400-2f35-4969-8f3b-31d9fdd5e812:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 8286a062-1316-4c65-ac1d-9886497d4092
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9b6ee81b-2961-4bbb-a07b-1be86d2c8eae # Statická část citace
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fdda5247-0c73-41f2-a4d2-719a09cb571b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 97fa92a8-2f52-4634-b119-e2a6dadab8a6 # Dynamická část citace
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4aecae0f-9ee3-43ba-b404-ddbf27f60593
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dbab4a88-65ea-4b4f-b377-f9731d5a367a # Autor
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 61767eb4-1fff-4cb0-958e-952d38bdfc87
+            userCondition: null
+            warning: null
+            width: 100
+        name: Obsah
+        uid: b91fc628-bcd0-42aa-a0ea-87c49208be3c
+        userCondition: null
+handle: citation
+hasTitleField: false
+icon: quotes
+name: Citát
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

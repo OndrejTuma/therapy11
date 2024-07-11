@@ -1,0 +1,74 @@
+altTranslationKeyFormat: null
+altTranslationMethod: none
+fieldLayouts:
+  7a549beb-f695-49aa-ba17-29640b51c62b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 24b133b2-1796-4363-b0aa-b758dff9fc56
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: 8dffd36f-e7a5-4bc8-a22e-0c72d6272bdd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Obsah
+        uid: 9c773fa9-abae-4480-b205-037e54f9012a
+        userCondition: null
+fs: icons
+handle: icons
+name: Ikony
+sortOrder: 2
+subpath: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: cs-CZ
+name: therapy11
+primary: true
+siteGroup: 88fd3ef7-9c27-48f5-b416-02379fef30ad # therapy11
+sortOrder: 1

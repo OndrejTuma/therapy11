@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: tileWhen
+instructions: null
+name: 'Dlaždice Kdy?'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - b4844c8a-2fb2-4b5e-9ddf-30e2e5db8d2a # Dlaždice Kdy?
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

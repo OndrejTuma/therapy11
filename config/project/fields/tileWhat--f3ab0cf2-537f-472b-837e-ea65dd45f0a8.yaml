@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: tileWhat
+instructions: null
+name: 'Dlaždice Co?'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - f2f30657-7666-42af-a6ec-912c0c7ae954 # Dlaždice Co?
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

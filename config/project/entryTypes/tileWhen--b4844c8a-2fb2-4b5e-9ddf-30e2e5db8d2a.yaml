@@ -1,0 +1,116 @@
+color: null
+fieldLayouts:
+  e760badc-4726-4adb-a8f3-6a7ca5684c34:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c8c76679-8903-4042-bb58-8535efeadc77
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 13609346-d613-4f7a-a7c7-f57c1a3e72ab # Podnadpis
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c5f2b402-14a4-459a-aa67-52f408e09412
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e53fcdee-b4a2-4984-bc20-60b69acfba24 # Popis
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0adb41ac-34d9-4537-b2f7-69c26f2e18f3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Obsah
+        uid: 2d466d34-4e60-4230-bcc2-d5b42cd6ab91
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 10a47349-5326-45b4-a1d5-40d006c3af3b # Text odkazu
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2e9d4f66-1269-4516-a4d4-5056527c4c93
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 15be827f-6fb0-4093-9f21-426515701f11 # Ikona
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 724e89d9-e923-43ba-ad4e-7650102c1bcf
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Obsah po najetí myši'
+        uid: 03788dab-d47e-4fb8-911c-b636f41904b9
+        userCondition: null
+handle: tileWhen
+hasTitleField: true
+icon: ''
+name: 'Dlaždice Kdy?'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

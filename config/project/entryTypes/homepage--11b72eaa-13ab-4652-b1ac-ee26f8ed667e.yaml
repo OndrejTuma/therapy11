@@ -1,0 +1,185 @@
+color: null
+fieldLayouts:
+  1296830c-3f20-4de3-9bb5-413aef2470ff:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b39c740d-d82c-48e6-a947-972f24bc61dc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 29efb6fe-023a-4fa0-9f60-3c079b5b2ad4 # Citát
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d3938056-e090-4a0d-9758-eb4b654630ab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c7dc2f8b-e835-4083-be86-da4196ba1cc7 # Adresa
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e2d19855-989c-4fa2-8005-0afb3bc0fec7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Obsah
+        uid: 79ae0905-eca3-40df-8c2e-a777ee1a2da2
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f3ab0cf2-537f-472b-837e-ea65dd45f0a8 # Dlaždice Co?
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 351885e1-3e4b-4bc8-a948-8806d275b9bb
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Co?'
+        uid: 0d0fc0a6-1f3b-4039-8652-bf75eb196e97
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 959d9d91-83bf-4fa7-810d-674000bfe314 # Dlaždice Kdy?
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83b1d0f4-5608-47cd-991a-0bedbbaea0ba
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Kdy?'
+        uid: a4be58d8-1e8f-48e1-9d59-ca61c88ccb96
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b08ccd31-4315-4ac1-a20c-88aca89bc22f # Dlaždice S Kým?
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0e989d0b-9e3b-471c-a665-6daa8608b39d
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'S kým?'
+        uid: 3ff542f4-ec6b-409b-8d8a-1339a8cbdb34
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a4335c86-c4fe-4f0c-bea4-b57a8d428987 # Dlaždice Jak?
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45c17ba5-59c7-4f99-98c3-a2ff4f1eb70a
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Jak?'
+        uid: 1c5e4d7a-b814-418d-b27f-73e5a9cfd024
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 636f748c-03aa-4eab-ba15-0ef768dd16c9 # Dlaždice Za kolik?
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b756f756-3f22-4320-bdc9-5fc3b1213dd1
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Za kolik?'
+        uid: 7758c919-7869-4ae3-a159-ed55c093dc5a
+        userCondition: null
+handle: homepage
+hasTitleField: true
+icon: ''
+name: Homepage
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

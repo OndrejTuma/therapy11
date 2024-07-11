@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 11b72eaa-13ab-4652-b1ac-ee26f8ed667e # Homepage
+handle: homepage
+maxAuthors: 1
+name: 'Hlavní stránka'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primární stránka zadávané údaje'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  cfc99793-b745-4cc3-b356-7f6983d898d4: # therapy11
+    enabledByDefault: true
+    hasUrls: true
+    template: /
+    uriFormat: __home__
+type: single

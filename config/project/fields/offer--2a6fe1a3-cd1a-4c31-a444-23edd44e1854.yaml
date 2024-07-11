@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: offer
+instructions: null
+name: Nabídka
+searchable: false
+settings:
+  createButtonLabel: 'Přidat nabídku'
+  entryTypes:
+    - 6a6ed4eb-db13-43fe-baef-64a63ddfe7cc # Nabídka
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
