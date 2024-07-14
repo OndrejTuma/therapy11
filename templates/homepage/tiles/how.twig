@@ -1,5 +1,14 @@
+{% set tileHow = entry.tileHow.one() %}
+
 <div class="tile tile-how">
-	{% set tileHow = entry.tileHow.one() %}
-	<h2 class="heading">{{ tileHow.title }}</h2>
-	<p>{{ tileHow.linkText }}</p>
+	<div class="front">
+		<div class="content">
+			<h2 class="heading">{{ tileHow.title }}</h2>
+		</div>
+	</div>
+	<div class="back">
+		<div class="content">
+			<p>{{ tileHow.linkText }}</p>
+		</div>
+	</div>
 </div>

@@ -75,8 +75,20 @@
   top: 0;
   transition: opacity .5s;
 }
+.tile .back:before {
+  border: 1px solid var(--primary);
+  bottom: 5px;
+  content: '';
+  left: 5px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
 .tile.inverted .back {
   background: color-mix(in srgb, var(--primary) 90%, transparent);
+}
+.tile.inverted .back:before {
+  border-color: var(--secondary);
 }
 .tile .back:hover {
   opacity: 1;
@@ -84,6 +96,7 @@
 /* Custom tiles styling */
 .tile-what .front, .tile-when .front {
   align-items: start;
+  padding-bottom: 40px;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 40px;
@@ -94,4 +107,45 @@
 }
 .tile-when h2 {
   border-bottom-color: var(--secondary);
+}
+.tile-who .back, .tile-price .back {
+    color: var(--secondary);
+}
+.tile-who .back:before, .tile-price .back:before {
+  border-color: var(--secondary);
+}
+.tile-how .front, .tile-how .back {
+  background-color: var(--secondary);
+}
+.tile-price h2 {
+  font-size: 52px;
+}
+.tile-price h3 {
+  display: inline;
+  font-size: 12px;
+  margin: 0;
+}
+.tile-price .back .content {
+  max-width: 80%;
+  margin: auto;
+}
+.tile-price .back h3 {
+  border-bottom: 1px solid var(--secondary);
+  display: block;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.tile-price .block-split > div:first-child {
+  position: relative;
+}
+.tile-price .block-split > div:first-child:before {
+  background-color: var(--secondary);
+  content: '';
+  height: 20px;
+  margin-top: -10px;
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: rotate(45deg);
+  width: 20px;
 }

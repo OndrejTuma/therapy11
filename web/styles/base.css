@@ -47,8 +47,27 @@ h3, .subheading {
 .color-secondary {
   color: var(--secondary);
 }
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
 .inverted {
   background-color: var(--primary);
   color: var(--secondary);
+}
+.child-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block-split {
+  display: flex;
+  height: 100%;
+}
+.block-split > div {
+  flex-basis: 50%;
+  flex-shrink: 0;
 }
 

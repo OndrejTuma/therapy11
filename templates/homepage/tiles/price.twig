@@ -1,15 +1,29 @@
+{% set tilePrice = entry.tilePrice.one() %}
+{% set offers = tilePrice.offer.all() %}
+
 <div class="tile tile-price">
-	{% set tilePrice = entry.tilePrice.one() %}
-	<h2>{{ tilePrice.title }}</h2>
-	<ul>
-		{% for offer in tilePrice.offer.all() %}
-			<li>{{ offer.title }},
-				{% set price = offer.price.amount | float / 100 %}
-				{{ price|currency(offer.price.currency,stripZeros=true)}}
-				{{ offer.length}}
-			</li>
-		{% endfor %}
-	</ul>
-	<h3>{{ tilePrice.subtitle }}</h3>
-	<p>{{ tilePrice.description }}</p>
+	<div class="front">
+		<div class="content block-split">
+			<div class="bg-secondary child-centered">
+				<h2>{{ tilePrice.title }}</h2>
+			</div>
+			<div class="tile inverted child-centered">
+				<ul>
+					{% for offer in offers %}
+						<li>
+							<h3>{{ offer.title }}</h3>,
+							{% set price = offer.price.amount | float / 100 %}
+							{{ price|currency(offer.price.currency,stripZeros=true)}}/{{ offer.length}}
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="back">
+		<div class="content">
+			<h3>{{ tilePrice.subtitle }}</h3>
+			<p>{{ tilePrice.description }}</p>
+		</div>
+	</div>
 </div>
