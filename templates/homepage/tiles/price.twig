@@ -1,0 +1,15 @@
+<div class="tile tile-price">
+	{% set tilePrice = entry.tilePrice.one() %}
+	<h2>{{ tilePrice.title }}</h2>
+	<ul>
+		{% for offer in tilePrice.offer.all() %}
+			<li>{{ offer.title }},
+				{% set price = offer.price.amount | float / 100 %}
+				{{ price|currency(offer.price.currency,stripZeros=true)}}
+				{{ offer.length}}
+			</li>
+		{% endfor %}
+	</ul>
+	<h3>{{ tilePrice.subtitle }}</h3>
+	<p>{{ tilePrice.description }}</p>
+</div>

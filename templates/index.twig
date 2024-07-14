@@ -1,94 +1,15 @@
-<!DOCTYPE html>
-<html lang="{{ craft.app.language }}">
-	<head>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-		<meta charset="utf-8"/>
-		<title>Terapie11.cz | Klíčem k uzdravení je mluvit</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
-		<meta name="referrer" content="origin-when-cross-origin"/>
+{% extends "layout/_base.twig" %}
 
-		<link rel='stylesheet' id='ls-google-fonts-css' href='//fonts.googleapis.com/css?family=Lato:100,300,regular,700,900,400%7CRoboto+Slab:100,300,regular,700%7CRoboto:regular%7COswald:300,regular,700%7CPacifico:regular%7CNunito:300,regular%7CCuprum:regular%7CIndie+Flower:regular%7CHandlee:regular&#038;subset=latin%2Clatin-ext' type='text/css' media='all'/>
-		<link rel='stylesheet' id='divi-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext' type='text/css' media='all'/>
-		<link rel='stylesheet' id='et-builder-googlefonts-cached-css' href='//fonts.googleapis.com/css?family=Abhaya+Libre%3Aregular%2C500%2C600%2C700%2C800&#038;ver=4.9.26#038;subset=latin,latin-ext' type='text/css' media='all'/>
+{% block head %}
+	{{ parent() }}
+	{% do craft.app.view.registerCssFile('@web/styles/homepage.css') %}
+{% endblock %}
 
+{% block title %}Klíčem k uzdravení je mluvit
+{% endblock %}
 
-		{% do craft.app.view.registerCssFile('@web/styles.css') %}
-	</head>
-	<body class="ltr">
-		<img src="/images/logo.svg" alt="Terapie11" width="200"/>
-		<div id="container">
-			<div id="modal">
-				<div id="main">
-					{% block content %}
-						<div class="citation">
-							{% set citation = entry.citation.one() %}
-							<p>&bdquo;{{ citation.staticQuote }}</p>
-							<p>{{ citation.dynamicQuote }}&rdquo;</p>
-							<p class="author">&ndash;
-								{{ citation.author }}</p>
-						</div>
-
-						<div class="tiles">
-							<div class="tile tile-what">
-								{% set tileWhat = entry.tileWhat.one() %}
-								<h2>{{ tileWhat.title }}</h2>
-								<h3>{{ tileWhat.subtitle }}</h3>
-								<p>{{ tileWhat.description }}</p>
-								<p>{{ tileWhat.linkText }}</p>
-								{% set tileWhatImage = tileWhat.icon.one() %}
-								{% if tileWhatImage %}
-									{{ tileWhatImage.getImg() }}
-								{% endif %}
-							</div>
-							<div class="tile tile-when">
-								{% set tileWhen = entry.tileWhen.one() %}
-								<h2>{{ tileWhen.title }}</h2>
-								<h3>{{ tileWhen.subtitle }}</h3>
-								<p>{{ tileWhen.description }}</p>
-								<p>{{ tileWhen.linkText }}</p>
-								{% set tileWhenImg = tileWhen.icon.one() %}
-								{% if tileWhenImg %}
-									{{ tileWhenImg.getImg() }}
-								{% endif %}
-							</div>
-							<div class="tile tile-who">
-								{% set tileWho = entry.tileWho.one() %}
-								<h2>{{ tileWho.title }}</h2>
-								<h3>{{ tileWho.fullname }}</h3>
-								<p>{{ tileWho.linkText }}</p>
-							</div>
-							<div class="tile tile-how">
-								{% set tileHow = entry.tileHow.one() %}
-								<h2>{{ tileHow.title }}</h2>
-								<p>{{ tileHow.linkText }}</p>
-							</div>
-							<div class="tile tile-price">
-								{% set tilePrice = entry.tilePrice.one() %}
-								<h2>{{ tilePrice.title }}</h2>
-								<ul>
-									{% for offer in tilePrice.offer.all() %}
-										<li>{{ offer.title }},
-											{% set price = offer.price.amount | float / 100 %}
-											{{ price|currency(offer.price.currency,stripZeros=true)}}
-											{{ offer.length}}
-										</li>
-									{% endfor %}
-								</ul>
-								<h3>{{ tilePrice.subtitle }}</h3>
-								<p>{{ tilePrice.description }}</p>
-							</div>
-						</div>
-
-						{% set address = entry.address.one() %}
-						<h3>{{ address.title }}</h3>
-						<p>{{address.addressLine1}}</p>
-						<p>{{address.addressLine2}}</p>
-						<p>{{address.postalCode}}</p>
-						<p>{{address.locality}}</p>
-
-					{% endblock %}
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
+{% block content %}
+	{{ include("homepage/citation.twig") }}
+	{{ include("homepage/tiles/index.twig") }}
+	{{ include("homepage/address.twig") }}
+{% endblock %}

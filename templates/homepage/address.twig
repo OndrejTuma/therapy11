@@ -1,0 +1,6 @@
+{% set address = entry.address.one() %}
+<h3>{{ address.title }}</h3>
+<p>{{address.addressLine1}}</p>
+<p>{{address.addressLine2}}</p>
+<p>{{address.postalCode}}</p>
+<p>{{address.locality}}</p>

@@ -1,0 +1,20 @@
+{% set tileWhen = entry.tileWhen.one() %}
+{% set tileWhenImg = tileWhen.icon.one() %}
+
+<div class="tile tile-when inverted">
+	<div class="front">
+		<div class="content">
+			<h2>{{ tileWhen.title }}</h2>
+			<h3>{{ tileWhen.subtitle }}</h3>
+			<p>{{ tileWhen.description }}</p>
+		</div>
+	</div>
+	<div class="back">
+		<div class="content">
+			{% if tileWhenImg %}
+				{{ tileWhenImg.getImg() }}
+			{% endif %}
+			<p>{{ tileWhen.linkText }}</p>
+		</div>
+	</div>
+</div>

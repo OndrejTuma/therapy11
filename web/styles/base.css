@@ -1,0 +1,54 @@
+:root {
+  --primary: #aa9095;
+  --secondary: #272c4a;
+  --tertiary: #ebe3dc;
+}
+
+@font-face {
+  font-family: "Brenta Demibold";
+  src: url("/fonts/Ludwig-Type-Brenta-Demibold-Regular.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "Appareo Light";
+  src: url("/fonts/Kimmy-Design-Appareo-Light.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: "Brother 1816";
+  src: url("/fonts/brother1816-regular.otf") format("opentype")
+}
+
+body {
+  background-color: var(--tertiary);
+  color: var(--primary);
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-variant-ligatures: common-ligatures;
+  font-weight: 600;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2, .heading {
+  font-family: "Brenta Demibold", Arial, sans-serif;
+  font-size: 60px;
+}
+h3, .subheading {
+  font-family: "Brother 1816", Arial, sans-serif;
+  font-feature-settings: "swsh" on;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.color-primary {
+  color: var(--primary);
+}
+.color-secondary {
+  color: var(--secondary);
+}
+.inverted {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+

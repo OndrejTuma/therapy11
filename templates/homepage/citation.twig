@@ -1,0 +1,8 @@
+{% set citation = entry.citation.one() %}
+
+<div id="citation" class="citation">
+	<p>&bdquo;{{ citation.staticQuote }}</p>
+	<p>{{ citation.dynamicQuote }}&rdquo;</p>
+	<p class="author">&ndash;
+		{{ citation.author }}</p>
+</div>

@@ -1,0 +1,20 @@
+{% set tileWhat = entry.tileWhat.one() %}
+{% set tileWhatImage = tileWhat.icon.one() %}
+
+<div class="tile tile-what">
+	<div class="front">
+		<div class="content">
+			<h2>{{ tileWhat.title }}</h2>
+			<h3>{{ tileWhat.subtitle }}</h3>
+			<p>{{ tileWhat.description }}</p>
+		</div>
+	</div>
+	<div class="back">
+		<div class="content">
+			{% if tileWhatImage %}
+				{{ tileWhatImage.getImg() }}
+			{% endif %}
+			<p>{{ tileWhat.linkText }}</p>
+		</div>
+	</div>
+</div>

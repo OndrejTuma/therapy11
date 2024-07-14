@@ -1,0 +1,6 @@
+<div class="tiles">
+	{% set tiles = ['how', 'price', 'what', 'when', 'who'] %}
+	{% for tile in tiles %}
+		{{ include("homepage/tiles/#{tile}.twig") }}
+	{% endfor %}
+</div>
