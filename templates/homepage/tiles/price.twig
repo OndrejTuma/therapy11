@@ -8,15 +8,19 @@
 				<h2>{{ tilePrice.title }}</h2>
 			</div>
 			<div class="tile inverted child-centered">
-				<ul>
+				<dl class="offers">
 					{% for offer in offers %}
-						<li>
-							<h3>{{ offer.title }}</h3>,
-							{% set price = offer.price.amount | float / 100 %}
-							{{ price|currency(offer.price.currency,stripZeros=true)}}/{{ offer.length}}
-						</li>
+						<div>
+							<dt>
+								<h3>{{ offer.title }}</h3>
+							</dt>
+							<dd>
+								{% set price = offer.price.amount | float / 100 %}
+								{{ price|currency(offer.price.currency,stripZeros=true)}}/{{ offer.length}}
+							</dd>
+						</div>
 					{% endfor %}
-				</ul>
+				</dl>
 			</div>
 		</div>
 	</div>

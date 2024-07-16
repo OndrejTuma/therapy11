@@ -12,9 +12,9 @@
 	<div class="back">
 		<div class="content">
 			{% if tileWhatImage %}
-				{{ tileWhatImage.getImg() }}
+				<div class="icon" style="-webkit-mask-image: url({{ tileWhatImage.getUrl() }});mask-image: url({{ tileWhatImage.getUrl() }})"></div>
 			{% endif %}
-			<p>{{ tileWhat.linkText }}</p>
+			{{ tileWhat.linkText }}
 		</div>
 	</div>
 </div>
