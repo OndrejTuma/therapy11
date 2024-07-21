@@ -27,6 +27,7 @@
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr));
+  grid-template-rows: 50%;
   grid-gap: var(--grid-layout-gap);
   grid-template-areas: 
     "what when who how"
@@ -49,13 +50,16 @@
 }
 /* Tiles styling */
 .tile {
+  font-size: 1vw;
   position: relative;
   text-align: center;
 }
 .tile h2 {
+  font-size: 5.4vw;
   margin: 0;
 }
 .tile h3 {
+  font-size: 1.26vw;
   margin: 1rem 0;
 }
 .tile .content {
@@ -133,7 +137,7 @@
   background-color: var(--secondary);
 }
 .tile-price h2 {
-  font-size: 52px;
+  font-size: 4.68vw;
 }
 .tile-price h3 {
   display: inline;
@@ -202,9 +206,27 @@
 
 /* Address styling */
 .address {
+  background: color-mix(in srgb, var(--primary) 90%, transparent);
   padding: 7% 1rem;
+  position: relative;
   text-align: center;
+  z-index: 1;
 }
 .address h2, .address h3 {
   margin: 0;
+}
+.map {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.map img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }

@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: addressWithMap
+instructions: null
+name: 'Adresa s Mapou'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - bc4646f8-b692-491d-997f-2b9d4ee1e483 # Adresa s mapou
+  includeTableView: false
+  maxEntries: 1
+  minEntries: 1
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

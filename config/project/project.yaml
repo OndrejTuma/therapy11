@@ -1,4 +1,4 @@
-dateModified: 1720725457
+dateModified: 1721589310
 email:
   fromEmail: ondrej.tuma@gmail.com
   fromName: therapy11
@@ -32,13 +32,17 @@ meta:
     11b72eaa-13ab-4652-b1ac-ee26f8ed667e: Homepage # Homepage
     15be827f-6fb0-4093-9f21-426515701f11: Ikona # Ikona
     29efb6fe-023a-4fa0-9f60-3c079b5b2ad4: Citát # Citát
+    37ee958a-03e5-4dc6-aafb-27baf62b070a: 'Výška obrázku' # Výška obrázku
+    085b6ccc-e756-49b0-98d5-8465fc922c5e: 'Zoom mapy' # Zoom mapy
     88fd3ef7-9c27-48f5-b416-02379fef30ad: therapy11 # therapy11
     91c8e751-385d-46ee-9a3b-3bc063894418: Ikony # Ikony
     97fa92a8-2f52-4634-b119-e2a6dadab8a6: 'Dynamická část citace' # Dynamická část citace
     166fbe0f-b2e0-4feb-8839-d20b74e92a40: Citát # Citát
+    484a087c-7def-44c2-8b23-f6fd2a8d19fa: 'Šířka obrázku' # Šířka obrázku
     636f748c-03aa-4eab-ba15-0ef768dd16c9: 'Dlaždice Za kolik?' # Dlaždice Za kolik?
     959d9d91-83bf-4fa7-810d-674000bfe314: 'Dlaždice Kdy?' # Dlaždice Kdy?
     4008b991-c333-4dad-a38e-519a7e854209: Cena # Cena
+    56744c48-6008-42a2-9d41-369577d0fcb0: Škála # Škála
     76127beb-52d6-4453-910c-f3dad6d6bd96: 'Dlaždice S Kým?' # Dlaždice S Kým?
     2315827a-6f20-4607-9064-9f8bf9e79aef: 'Dlaždice Jak?' # Dlaždice Jak?
     13609346-d613-4f7a-a7c7-f57c1a3e72ab: Podnadpis # Podnadpis
@@ -46,13 +50,18 @@ meta:
     a4335c86-c4fe-4f0c-bea4-b57a8d428987: 'Dlaždice Jak?' # Dlaždice Jak?
     b08ccd31-4315-4ac1-a20c-88aca89bc22f: 'Dlaždice S Kým?' # Dlaždice S Kým?
     b4844c8a-2fb2-4b5e-9ddf-30e2e5db8d2a: 'Dlaždice Kdy?' # Dlaždice Kdy?
+    bc4646f8-b692-491d-997f-2b9d4ee1e483: 'Adresa s mapou' # Adresa s mapou
     c6cb9019-eab6-45ec-b794-ed112f9baab1: 'Dlaždice Za kolik?' # Dlaždice Za kolik?
     c7dc2f8b-e835-4083-be86-da4196ba1cc7: Adresa # Adresa
     cfc99793-b745-4cc3-b356-7f6983d898d4: therapy11 # therapy11
+    d89093c3-d898-45bf-abd7-d3dc4f5d7d6f: 'Dodatečné parametry mapy' # Dodatečné parametry mapy
     dbab4a88-65ea-4b4f-b377-f9731d5a367a: Autor # Autor
     e53fcdee-b4a2-4984-bc20-60b69acfba24: Popis # Popis
     f2f30657-7666-42af-a6ec-912c0c7ae954: 'Dlaždice Co?' # Dlaždice Co?
     f3ab0cf2-537f-472b-837e-ea65dd45f0a8: 'Dlaždice Co?' # Dlaždice Co?
+    f3cc235c-d7bd-419f-9001-5a9584b3d518: 'Adresa s Mapou' # Adresa s Mapou
+    f2803cad-4ede-4ac3-b703-7f94e05a80ee: 'Typ mapy' # Typ mapy
+    f2662638-d03b-426d-806d-f1bc364f9976: 'Střed mapy' # Střed mapy
 system:
   edition: solo
   live: true

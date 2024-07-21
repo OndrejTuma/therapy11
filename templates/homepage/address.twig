@@ -1,11 +1,26 @@
-{% set address = entry.address.one() %}
+{% set addressWithMap = entry.addressWithMap.one() %}
+{% set address = addressWithMap.address.one() %}
+{% set center = addressWithMap.mapCenter %}
+{% set mapType = addressWithMap.mapType %}
+{% set mapParams = addressWithMap.mapParams %}
+{% set zoom = addressWithMap.zoom %}
+{% set imgWidth = addressWithMap.imgWidth %}
+{% set imgHeight = addressWithMap.imgHeight %}
+{% set scale = addressWithMap.scale %}
 
-<div class="address inverted">
-	<h2>{{ address.title }}</h2>
-	<h3>
-		{{address.addressLine1}}
-		<div>{{address.addressLine2}}
-			{{address.postalCode}}<div>
-				{{address.locality}}
-			</h3>
+<div class="relative">
+	<a href="https://www.google.com/maps/place/{{ " #{address.addressLine1} #{address.addressLine2}" | url_encode }}" target="_blank" class="blend">
+		<div class="address inverted">
+			<h2>{{ address.title }}</h2>
+			<h3>
+				{{address.addressLine1}}
+				<div>{{address.addressLine2}}
+					{{address.postalCode}}<div>
+						{{address.locality}}
+					</h3>
+				</div>
+			</a>
+			<div class="map">
+				<img src="https://maps.googleapis.com/maps/api/staticmap?center={{ center | url_encode }}&amp;markers=size:tiny|{{ " #{address.addressLine1} #{address.addressLine2}" | url_encode }}&amp;zoom={{ zoom }}&amp;size={{ imgWidth }}x{{ imgHeight }}&amp;scale={{ scale }}&amp;maptype={{ mapType }}&amp;key=AIzaSyBaI7zWTgZSfTEUvWgBqKO_UusCE2q-zsU&amp;{{ mapParams }}"/>
+			</div>
 		</div>

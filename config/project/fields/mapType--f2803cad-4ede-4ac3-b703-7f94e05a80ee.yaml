@@ -1,0 +1,54 @@
+columnSuffix: null
+handle: mapType
+instructions: null
+name: 'Typ mapy'
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Terén
+        -
+          - value
+          - terrain
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Silniční
+        -
+          - value
+          - roadmap
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Satelitní
+        -
+          - value
+          - satellite
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Hybridní
+        -
+          - value
+          - hybrid
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

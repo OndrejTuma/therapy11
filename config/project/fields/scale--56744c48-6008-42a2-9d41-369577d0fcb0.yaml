@@ -1,0 +1,18 @@
+columnSuffix: null
+handle: scale
+instructions: null
+name: Škála
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 2
+  max: 2
+  min: 1
+  prefix: null
+  previewCurrency: null
+  previewFormat: none
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

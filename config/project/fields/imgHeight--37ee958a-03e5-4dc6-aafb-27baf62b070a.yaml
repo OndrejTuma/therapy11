@@ -1,0 +1,18 @@
+columnSuffix: null
+handle: imgHeight
+instructions: null
+name: 'Výška obrázku'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 150
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: none
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

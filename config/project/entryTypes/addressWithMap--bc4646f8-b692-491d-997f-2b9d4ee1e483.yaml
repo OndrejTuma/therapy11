@@ -1,6 +1,6 @@
-color: null
+color: blue
 fieldLayouts:
-  1296830c-3f20-4de3-9bb5-413aef2470ff:
+  2da5d12a-27aa-47cf-9e2d-82eaa5cc1941:
     tabs:
       -
         elementCondition: null
@@ -30,13 +30,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: b39c740d-d82c-48e6-a947-972f24bc61dc
+            uid: 99556d89-aa1d-4598-bfe5-3406409405f6
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 29efb6fe-023a-4fa0-9f60-3c079b5b2ad4 # Citát
+            fieldUid: c7dc2f8b-e835-4083-be86-da4196ba1cc7 # Adresa
             handle: null
             includeInCards: false
             instructions: null
@@ -45,13 +45,13 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: d3938056-e090-4a0d-9758-eb4b654630ab
+            uid: 895cc57f-1be8-46fd-885c-80a83f54f660
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: f3cc235c-d7bd-419f-9001-5a9584b3d518 # Adresa s Mapou
+            fieldUid: f2662638-d03b-426d-806d-f1bc364f9976 # Střed mapy
             handle: null
             includeInCards: false
             instructions: null
@@ -60,122 +60,107 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 778527eb-b605-4817-8e43-67cc0467080c
+            uid: ed27eead-90b5-4656-b322-6daa6f359128
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: f2803cad-4ede-4ac3-b703-7f94e05a80ee # Typ mapy
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0043581-d2c1-4a26-8cf3-24c2f0f22484
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 085b6ccc-e756-49b0-98d5-8465fc922c5e # Zoom mapy
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5638437b-1519-4558-98f5-0a3a27c4b1d2
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 56744c48-6008-42a2-9d41-369577d0fcb0 # Škála
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1c1f7502-5133-476e-82e6-08b2db9cf1ee
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 484a087c-7def-44c2-8b23-f6fd2a8d19fa # Šířka obrázku
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4990b136-199d-4c0f-a018-9d317a494f8f
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 37ee958a-03e5-4dc6-aafb-27baf62b070a # Výška obrázku
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a6ff69b-7adc-4f23-b49f-712da1ea5258
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: d89093c3-d898-45bf-abd7-d3dc4f5d7d6f # Dodatečné parametry mapy
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f94c778e-c369-4a79-8d6f-2cd8d9061e49
             userCondition: null
             warning: null
             width: 100
         name: Obsah
-        uid: 79ae0905-eca3-40df-8c2e-a777ee1a2da2
+        uid: 5137b914-4ff3-4eb8-9fb8-637b8e8650b8
         userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: f3ab0cf2-537f-472b-837e-ea65dd45f0a8 # Dlaždice Co?
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 351885e1-3e4b-4bc8-a948-8806d275b9bb
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Co?'
-        uid: 0d0fc0a6-1f3b-4039-8652-bf75eb196e97
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: 959d9d91-83bf-4fa7-810d-674000bfe314 # Dlaždice Kdy?
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 83b1d0f4-5608-47cd-991a-0bedbbaea0ba
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Kdy?'
-        uid: a4be58d8-1e8f-48e1-9d59-ca61c88ccb96
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: b08ccd31-4315-4ac1-a20c-88aca89bc22f # Dlaždice S Kým?
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 0e989d0b-9e3b-471c-a665-6daa8608b39d
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'S kým?'
-        uid: 3ff542f4-ec6b-409b-8d8a-1339a8cbdb34
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: a4335c86-c4fe-4f0c-bea4-b57a8d428987 # Dlaždice Jak?
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 45c17ba5-59c7-4f99-98c3-a2ff4f1eb70a
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Jak?'
-        uid: 1c5e4d7a-b814-418d-b27f-73e5a9cfd024
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: 636f748c-03aa-4eab-ba15-0ef768dd16c9 # Dlaždice Za kolik?
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: b756f756-3f22-4320-bdc9-5fc3b1213dd1
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Za kolik?'
-        uid: 7758c919-7869-4ae3-a159-ed55c093dc5a
-        userCondition: null
-handle: homepage
-hasTitleField: true
-icon: ''
-name: Homepage
+handle: addressWithMap
+hasTitleField: false
+icon: map
+name: 'Adresa s mapou'
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
