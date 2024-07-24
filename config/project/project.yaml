@@ -1,4 +1,4 @@
-dateModified: 1721589310
+dateModified: 1721854208
 email:
   fromEmail: ondrej.tuma@gmail.com
   fromName: therapy11
@@ -22,6 +22,7 @@ meta:
   __names__:
     0bff3dc7-a35c-4963-9d2b-3e662ef7a40c: 'Public Schema' # Public Schema
     2a6fe1a3-cd1a-4c31-a444-23edd44e1854: Nabídka # Nabídka
+    6a1f04fc-1d5d-42a1-9957-b5c1e78c919d: 'API Klíč' # API Klíč
     6a6ed4eb-db13-43fe-baef-64a63ddfe7cc: Nabídka # Nabídka
     6c05ceaf-146d-4c06-8ed9-678874010683: Obrázek # Obrázek
     8e38523c-8645-47e2-a452-7ae0566cb2fe: Délka # Délka
@@ -36,6 +37,7 @@ meta:
     085b6ccc-e756-49b0-98d5-8465fc922c5e: 'Zoom mapy' # Zoom mapy
     88fd3ef7-9c27-48f5-b416-02379fef30ad: therapy11 # therapy11
     91c8e751-385d-46ee-9a3b-3bc063894418: Ikony # Ikony
+    93eea38a-8dc0-4481-89d4-3cc361f8b25e: 'Google maps' # Google maps
     97fa92a8-2f52-4634-b119-e2a6dadab8a6: 'Dynamická část citace' # Dynamická část citace
     166fbe0f-b2e0-4feb-8839-d20b74e92a40: Citát # Citát
     484a087c-7def-44c2-8b23-f6fd2a8d19fa: 'Šířka obrázku' # Šířka obrázku

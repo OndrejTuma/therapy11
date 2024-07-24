@@ -9,7 +9,7 @@
 {% set scale = addressWithMap.scale %}
 
 <div class="relative">
-	<a href="https://www.google.com/maps/place/{{ " #{address.addressLine1} #{address.addressLine2}" | url_encode }}" target="_blank" class="blend">
+	<a href="https://www.google.com/maps/place/{{ "#{address.addressLine1} #{address.addressLine2}" | url_encode }}" target="_blank" class="blend">
 		<div class="address inverted">
 			<h2>{{ address.title }}</h2>
 			<h3>
@@ -21,6 +21,6 @@
 				</div>
 			</a>
 			<div class="map">
-				<img src="https://maps.googleapis.com/maps/api/staticmap?center={{ center | url_encode }}&amp;markers=size:tiny|{{ " #{address.addressLine1} #{address.addressLine2}" | url_encode }}&amp;zoom={{ zoom }}&amp;size={{ imgWidth }}x{{ imgHeight }}&amp;scale={{ scale }}&amp;maptype={{ mapType }}&amp;key=AIzaSyBaI7zWTgZSfTEUvWgBqKO_UusCE2q-zsU&amp;{{ mapParams }}"/>
+				<img src="https://maps.googleapis.com/maps/api/staticmap?center={{ center | url_encode }}&amp;markers=color:black|size:tiny|{{ "#{address.addressLine1} #{address.addressLine2}" | url_encode }}&amp;zoom={{ zoom }}&amp;size={{ imgWidth }}x{{ imgHeight }}&amp;scale={{ scale }}&amp;maptype={{ mapType }}&amp;key={{ googleMaps.apiKey }}&amp;{{ mapParams }}"/>
 			</div>
 		</div>

@@ -1,0 +1,27 @@
+fieldLayouts:
+  01afa0c8-b299-417e-8aef-8cc90c41aecb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 6a1f04fc-1d5d-42a1-9957-b5c1e78c919d # API Klíč
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b3f56e47-8bb9-45b6-b3b7-07992237475e
+            userCondition: null
+            warning: null
+            width: 100
+        name: API
+        uid: a6fde23f-2804-419c-ac24-00073673b79a
+        userCondition: null
+handle: googleMaps
+name: 'Google maps'
+sortOrder: 1
