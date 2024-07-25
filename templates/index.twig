@@ -3,13 +3,15 @@
 {% block head %}
 	{{ parent() }}
 	{% do craft.app.view.registerCssFile('@web/styles/homepage.css') %}
+	 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	{% js "/js/citation.js" %}
 {% endblock %}
 
 {% block title %}Klíčem k uzdravení je mluvit
 {% endblock %}
 
 {% block content %}
-	{{ include("homepage/citation.twig") }}
+	{{ include("homepage/citation.twig", { citation: entry.citation.one() }) }}
 	{{ include("homepage/tiles/index.twig") }}
 	{{ include("homepage/address.twig") }}
 {% endblock %}
