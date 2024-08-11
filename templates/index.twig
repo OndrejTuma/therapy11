@@ -11,7 +11,8 @@
 {% endblock %}
 
 {% block content %}
-	{{ include("homepage/citation.twig", { citation: entry.citation.one() }) }}
+	{{ include("homepage/intro.twig") }}
 	{{ include("homepage/tiles/index.twig") }}
 	{{ include("homepage/address.twig") }}
+	{{ include("homepage/contact.twig") }}
 {% endblock %}

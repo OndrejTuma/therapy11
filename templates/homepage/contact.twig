@@ -1,0 +1,51 @@
+<div class="bg-secondary contact">
+	<div class="container">
+		{% macro errorList(errors) %}
+			{% if errors %}
+				{{ ul(errors, {class: 'errors'}) }}
+			{% endif %}
+		{% endmacro %}
+
+		{% set submission = submission ?? null %}
+		<h3>Máte zájem o konzultaci?</br>Napište nám.</h3>
+	<form id="contact-form" method="post" action="" accept-charset="UTF-8">
+		{{ csrfInput() }}
+		{{ actionInput('contact-form/send') }}
+		{{ redirectInput('/#contact-form') }}
+
+		<div class="block block-split">
+			<div>
+				{{ input('text', 'fromName', submission.fromName ?? '', {
+        id: 'from-name',
+        autocomplete: 'name',
+        placeholder: 'Jméno a přijmení',
+    }) }}
+				{{ submission ? _self.errorList(submission.getErrors('fromName')) }}
+			</div>
+			<div>
+				{{ input('email', 'fromEmail', submission.fromEmail ?? '', {
+        id: 'from-email',
+        autocomplete: 'email',
+        placeholder: 'E-mail',
+    }) }}
+				{{ submission ? _self.errorList(submission.getErrors('fromEmail')) }}
+			</div>
+		</div>
+
+		<div class="block">
+			{{ tag('textarea', {
+        text: submission.message ?? '',
+        id: 'message',
+        name: 'message',
+        placeholder: 'Zpráva',
+        rows: 10,
+        cols: 40,
+    }) }}
+			{{ submission ? _self.errorList(submission.getErrors('message')) }}
+		</div>
+
+		<div class="right">
+			<button type="submit">Odeslat</button>
+		</div>
+	</div>
+</form></div>

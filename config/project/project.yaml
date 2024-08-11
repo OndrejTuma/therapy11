@@ -1,7 +1,11 @@
-dateModified: 1721854208
+dateModified: 1723387531
 email:
   fromEmail: ondrej.tuma@gmail.com
-  fromName: therapy11
+  fromName: 'Terapie 11'
+  replyToEmail: ondrej.tuma@gmail.com
+  template: null
+  transportSettings:
+    command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   icons:
@@ -64,10 +68,22 @@ meta:
     f3cc235c-d7bd-419f-9001-5a9584b3d518: 'Adresa s Mapou' # Adresa s Mapou
     f2803cad-4ede-4ac3-b703-7f94e05a80ee: 'Typ mapy' # Typ mapy
     f2662638-d03b-426d-806d-f1bc364f9976: 'Střed mapy' # Střed mapy
+plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from therapy11'
+      successFlashMessage: 'Your message has been sent.'
+      toEmail: ondrej.tuma@gmail.com
 system:
   edition: solo
   live: true
   name: 'Terapie 11'
   retryDuration: null
-  schemaVersion: 5.0.0.21
+  schemaVersion: 5.3.0.2
   timeZone: America/Los_Angeles
