@@ -163,6 +163,17 @@
   background-color: var(--secondary);
 }
 
+/* Tiles aspect ratio */
+.tile-what, .tile-when {
+  aspect-ratio: .66;
+}
+.tile-who, .tile-how {
+  aspect-ratio: 1.32;
+}
+.tile-price {
+  aspect-ratio: 2.64;
+}
+
 /* Custom tiles styling */
 .tile-what .front, .tile-when .front {
   align-items: start;
