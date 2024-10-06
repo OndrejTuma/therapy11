@@ -2,6 +2,8 @@
   --primary: #aa9095;
   --secondary: #272c4a;
   --tertiary: #ebe3dc;
+
+  --headerHeight: 100px;
 }
 
 @font-face {
@@ -21,6 +23,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--headerHeight);
 }
 body {
   background-color: var(--tertiary);
@@ -92,6 +95,7 @@ a img {
 
 .header {
   background-color: var(--tertiary);
+  height: var(--headerHeight);
   padding: 0 30px;
   position: fixed;
   width: 100%;
