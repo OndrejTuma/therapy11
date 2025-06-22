@@ -119,6 +119,30 @@
 .tile .content {
   flex-grow: 1;
 }
+.tile .arrow {
+  bottom: 20px;
+  padding-right: 25px;
+  position: absolute;
+  right: 20px;
+}
+.tile .arrow:before {
+  -webkit-mask-image: url(/images/arrow-right.svg);
+  bottom: -3px;
+  content: '';
+  height: 20px;
+  mask-image: url(/images/arrow-right.svg);
+  position: absolute;
+  right: 0;
+  width: 20px;
+}
+.tile .arrow:before,
+.tile.tile-how .back .arrow:before {
+  background-color: var(--primary);
+}
+.tile.inverted .arrow:before,
+.tile .back .arrow:before {
+  background-color: var(--secondary);
+}
 .tile .front, .tile .back {
   align-items: center;
   box-sizing: border-box;
